@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Auto build script",
+  "description": "u can build by this script ",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "bg.js"
+    ],
+    "persistent": true
+  }
+}
